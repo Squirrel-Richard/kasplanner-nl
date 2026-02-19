@@ -141,7 +141,7 @@ export function LandingPage() {
             initial="hidden"
             animate="visible"
             custom={1}
-            className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
+            className="text-3xl sm:text-5xl md:text-7xl font-bold mb-6 leading-tight"
           >
             Weet altijd hoeveel{' '}
             <span className="gradient-text">geld er morgen</span>{' '}
@@ -470,7 +470,7 @@ function DashboardPreview() {
             <p className="text-xs mb-1" style={{ color: 'rgba(255,255,255,0.5)' }}>
               {item.label}
             </p>
-            <p className="text-lg font-bold" style={{ color: item.kleur }}>
+            <p className="text-sm sm:text-lg font-bold truncate" style={{ color: item.kleur }}>
               {item.bedrag}
             </p>
           </div>

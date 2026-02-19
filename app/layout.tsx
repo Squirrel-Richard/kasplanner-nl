@@ -38,7 +38,6 @@ export const metadata: Metadata = {
     title: 'KasPlanner — Cashflow forecasting voor Nederlands MKB',
     description:
       'Altijd weten hoeveel geld er over 30, 60 en 90 dagen op je rekening staat.',
-    images: [{ url: '/og-image.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
